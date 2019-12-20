@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="4" parallel="tests" >
+	<test name="Test1">
+		<classes>
+			<class name="adidas.automation.testcases.LoadFileTest" />
+
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<classes>
+			<class
+				name="adidas.automation.testcases.FileDifferenceTest" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<classes>
+			<class
+				name="adidas.automation.testcases.FileNotSupportedTest" />
+		</classes>
+	</test>
+	
+	<test name="Test4">
+		<classes>
+			<class
+				name="adidas.automation.testcases.ResetButtonTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
